@@ -1,4 +1,7 @@
 language: python
-rvm:
--3
+python:
+-"3.5"
+
+script:
+-pytest
 
