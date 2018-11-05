@@ -6,7 +6,8 @@ python:
 
 install:
     -pip install unittest
-    -pip install rpn    
+    -pip install rpn
+
 script:
     -python3 -m unittest
 
