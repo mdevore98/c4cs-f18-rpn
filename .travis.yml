@@ -5,8 +5,8 @@ python:
     - "3.5"
 
 install:
-    - pip install unittest
-    - pip install rpn
+    - pip install unittest --user
+    - pip install rpn --user
 
 script:
     - python3 -m unittest
