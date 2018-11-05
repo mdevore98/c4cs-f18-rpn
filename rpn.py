@@ -4,11 +4,6 @@ import operator
 
 import readline
 
-import colored
-from colored import fg, bg
-
-colored.fg(9)
-colored.bg(255)
 operators = {
     '+': operator.add,
     '-': operator.sub,
